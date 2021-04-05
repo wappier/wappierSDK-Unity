@@ -1,0 +1,14 @@
+{
+  "name": "com.wappier.wappiersdk-unity",
+  "version": "1.0.0",
+  "displayName": "Wappier Unity SDK",
+  "description": "This is an example package from wappier. Please discribe the package use here.",
+  "unity": "2021.1",
+  "unityRelease": "0b5",
+  "keywords": [],
+  "author": {
+    "name": "wappier dev",
+    "email": "support@wappier.com",
+    "url": "https://www.wappier.com"
+  }
+}
