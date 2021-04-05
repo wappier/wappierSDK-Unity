@@ -1,0 +1,59 @@
+framework module WappierSDK {
+    umbrella header "WappierSDK.h"
+    header "WappierRedeemedReward.h"
+    header "XNIAdOptions.h"
+    header "XNRedemptionDelegate.h"
+    header "XNIAdContentDelegate.h"
+    header "XNStoreItem.h"
+    header "XNRedeemable.h"
+    
+    export *
+    
+    explicit module Private {
+        // Add any private ObjC header that you want to use in a Swift file.
+        header "XNAsset.h"
+        header "XNStyle.h"
+        header "XNTextAsset.h"
+        header "XNFontStyle.h"
+        header "XNColorStyle.h"
+        header "XNStrokeStyle.h"
+        header "XNShadowStyle.h"
+        header "XNShapeStyle.h"
+        header "XNImageAsset.h"
+        header "XNSlicedImages.h"
+        header "XNPrice.h"
+        header "XNMetadata.h"
+        header "XNAssets.h"
+        header "XNAchievement.h"
+        header "XNSegmentedControl.h"
+        header "XNReward.h"
+        header "XNRewardDetail.h"
+        header "XNRewardInfo.h"
+        header "XNNotifications.h"
+        header "XNColorAsset.h"
+        header "XNSessionManagerAdapter.h"
+        header "XNLoyaltyQueryResponse.h"
+        header "XNOffer.h"
+        header "XNOfferTile.h"
+        header "XNAssetView.h"
+        header "XNDCountdownTextHelper.h"
+        header "XNDScratchAndWinDetails.h"
+        header "XNErrorHandler.h"
+        header "XNAlertPopup.h"
+        header "XNError.h"
+        header "XNLabel.h"
+        header "XNButton.h"
+        header "XNGradient.h"
+        header "XNQuestGroup.h"
+        header "XNQuestStep.h"
+        header "XNDQuestGroupInfo.h"
+        header "XNDQuestGroupDetail.h"
+        header "XNDQuestStepDetail.h"
+        header "XNCompletedQuest.h"
+    }
+}
+
+module WappierSDK.Swift {
+    header "WappierSDK-Swift.h"
+    requires objc
+}
