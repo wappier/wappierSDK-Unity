@@ -1,16 +1,17 @@
-
 /*******************************************************
 
-* Copyright (C) 2020-2021 Wappier Inc. supportAtwappier.com
+Copyright (C) 2020-2021 Wappier Inc. support@wappier.com
 
-*
+This file is part of Wappier SDK in github repository
 
-* This file is part of Wappier Optimization Android SDK.
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-*
+Wappier SDK is a commercial product which cannot be distributed or copied without explicit license from wappier
 
-* Wappier Optimization Android SDK can not be copied and/or distributed without the express
+For more information on how to acquire a commercial license please contact info@wappier.com
 
-* permission of Wappier Inc.
+Current files are provided only in the context of a commercial license from wappier
+
+Any use beyond the terms and conditions described in the commercial license is strictly prohibited
 
 *******************************************************/
